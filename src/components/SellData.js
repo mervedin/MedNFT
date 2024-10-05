@@ -3,7 +3,7 @@ import { NFTStorage, File } from 'nft.storage'; // For IPFS
 import { Connection, PublicKey, Transaction, clusterApiUrl } from '@solana/web3.js'; // For Solana
 import './SellData.css';
 
-const NFT_STORAGE_API_KEY = 'YOUR_NFT_STORAGE_API_KEY'; // Get this from nft.storage
+const NFT_STORAGE_API_KEY = process.env.REACT_APP_NFT_STORAGE_API_KEY; // Get this from nft.storage
 const SOLANA_NETWORK = 'devnet'; // Change to 'mainnet-beta' for production
 
 const SellData = () => {
