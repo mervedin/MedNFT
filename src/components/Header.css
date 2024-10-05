@@ -1,0 +1,28 @@
+/* Header.css */
+
+.header {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 0; /* Remove padding */
+    background-color: #222; /* Dark header background */
+    height: 100px; /* Set a fixed height for the header */
+}
+
+.nav-link {
+    display: flex; /* Ensure nav is also a flex container */
+    align-items: center; /* Center nav items vertically */
+    margin-left: 15px; /* Add some space between logo and nav */
+}
+
+.nav-link ul {
+    display: flex; /* Align items in a row */
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.nav-link li {
+    margin: 0 15px; /* Adjust space between nav items */
+    color: #ffffff; /* Set color for nav items */
+}

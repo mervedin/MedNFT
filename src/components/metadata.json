@@ -1,0 +1,7 @@
+{
+    "name": "Medical Image NFT",
+    "symbol": "",
+    "uri": "http://localhost:8080/image.png",
+    "seller_fee_basis_points": 500,
+    "creators": null
+}

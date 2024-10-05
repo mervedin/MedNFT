@@ -1,0 +1,23 @@
+/* src/components/Marketplace.css */
+.marketplace {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .nft-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .nft-item {
+    width: 200px;
+    height: 200px;
+    background-color: #444;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8fe3f9;
+  }  
