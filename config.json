@@ -1,0 +1,24 @@
+{
+  "tokenStandard": "nft",
+  "number": 8,
+  "symbol": "MedNFT 24",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "Cuqap5pa7g1KknxrMc6XkNzxzaaM3W7LLNKYGS5UNmKs",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": null,
+  "maxEditionSupply": null
+}

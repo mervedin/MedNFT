@@ -1,0 +1,24 @@
+{
+    "name": "Medical X-ray Image #0",
+    "symbol": "MedNFT 24",
+    "description": "A high-resolution X-ray image showing detailed anatomy.",
+    "image": "0.jpeg",
+    "attributes": [
+      {
+        "trait_type": "Body Part",
+        "value": "Chest"
+      },
+      {
+        "trait_type": "Findings",
+        "value": "Normal"
+      }
+    ],
+    "properties": {
+      "files": [
+        {
+          "uri": "0.jpeg",
+          "type": "image/jpeg"
+        }
+      ]
+    }
+}

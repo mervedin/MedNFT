@@ -1,0 +1,82 @@
+{
+  "program": {
+    "candyMachine": "6s7Bp1EAEa1EHxAD9F7nUegYfKgVRMfFWLjR1qHjQH1i",
+    "candyGuard": "",
+    "candyMachineCreator": "8KzcdiCzwvKEk7RJhKgzasHA93AdTwaHSgsCHiZdppow",
+    "collectionMint": "13XnTF4w3La37d1h9s4MMsivKbPDZk4VGGHUA2zxias7"
+  },
+  "items": {
+    "-1": {
+      "name": "MedNFT Collection",
+      "image_hash": "395cc631d7c2787a6fd87137038f0532ab26e7d4d213f7a923eaba47ea48ab4e",
+      "image_link": "https://gateway.irys.xyz/Dy3mjsUkGvLG2sCc8WMiMSioNVHUt1LYPbzqrRyR75pu?ext=jpeg",
+      "metadata_hash": "2a76a6e475e0a43d02c065ada178c6acd596bbf8b6ee44c155c1fa4b4234929a",
+      "metadata_link": "https://gateway.irys.xyz/4P5wbiBR9nm6m1GHHDYbcEtDJgYNMe8gJ7D881tyqHww",
+      "onChain": true
+    },
+    "0": {
+      "name": "Medical X-ray Image #0",
+      "image_hash": "19deafbd4cb13b7bca7e9c83466066c0d0c9e1678861519dcb1d0a45a79b0362",
+      "image_link": "https://gateway.irys.xyz/9mNRQ5u2yE7HFBXXmHiziNaEU1qiUp1XazVRVm5m5DKW?ext=jpeg",
+      "metadata_hash": "8e9702302b9b09bc434424d28e00124efef43e5153e10fa541b488d1540694c2",
+      "metadata_link": "https://gateway.irys.xyz/G1VeFnA5nANydRequLFPtYQEybyoYXJ5SKyNVD6EZdNT",
+      "onChain": true
+    },
+    "1": {
+      "name": "Medical X-ray Image #1",
+      "image_hash": "91c3cb7e4c579b7f9d7f48780575caacfbc51898841cdc0d0d1a388bbba47203",
+      "image_link": "https://gateway.irys.xyz/6WhCUChQffigrzRWRRi89RsPfSHNc4XMsX5aW34tsi4G?ext=jpeg",
+      "metadata_hash": "fd60175455e316f0342590cab1b27bdf8a7a47f717febfd99da0a8238be21598",
+      "metadata_link": "https://gateway.irys.xyz/8zQVwXBta5mCN6T4dURZCt5JY2LdyEEiW6ybyyKDAep7",
+      "onChain": true
+    },
+    "2": {
+      "name": "Medical X-ray Image #2",
+      "image_hash": "d30b85c96b78dabe1ddf05867a687dffe7a9a067cd72485abace2fc959c2a503",
+      "image_link": "https://gateway.irys.xyz/6X9MbkKQUuZmYLXnqrKC8EpzSvxxPNoEUit43MPdGJ8K?ext=jpeg",
+      "metadata_hash": "8612098c691214907a00041a320deab9e341fd5419d9f9d2b30228798defd33a",
+      "metadata_link": "https://gateway.irys.xyz/9wh8RGsUdPYxA2J72giQWdSjVBg2vSLkyKvNziEHKqHt",
+      "onChain": true
+    },
+    "3": {
+      "name": "Medical X-ray Image #3",
+      "image_hash": "e1d5161b6a6d82ccbee47fd8dfb1a6d44eded1d7e4f164121dd2a229bdc43f5d",
+      "image_link": "https://gateway.irys.xyz/93Dqa9AfreAtXPYyQUocHbzQztULQ8XLZw3XTSqmtmMe?ext=jpeg",
+      "metadata_hash": "85a8cbc6b703907e0f505666ec1175b35dfcb4c2ff24c1bc40afdeb922f31554",
+      "metadata_link": "https://gateway.irys.xyz/6wJXNFYCdccakGeGTjxhQVmCmJvJdq1ktWFXvGefRWgm",
+      "onChain": true
+    },
+    "4": {
+      "name": "Medical X-ray Image #4",
+      "image_hash": "1136fa7a74528c4b6dd55b7318dedefdbc7b523db09928b1ebdf276fef31f08b",
+      "image_link": "https://gateway.irys.xyz/5uo8KpBHCXH8Z54Q5xDUiGcrrbacW5vnoGQo3BZn8WLS?ext=jpeg",
+      "metadata_hash": "f44bf03ad06394abc59a8d6cc5885fd982924f8e8a97e8ebd170d8d7d67fe832",
+      "metadata_link": "https://gateway.irys.xyz/BsCnDMCYYLUTVoSN7DQWTPb55qeZWkpxhjR8CbjXt4yd",
+      "onChain": true
+    },
+    "5": {
+      "name": "Medical X-ray Image #5",
+      "image_hash": "3fef55b2ba3c51c66ad41122ed4f640c19bb549d850d53fbbe3a4f18d9eb4e82",
+      "image_link": "https://gateway.irys.xyz/EP4ACLTit1yRD2mp7Cho5Jo33vT4XANW8dVbAkbVugw7?ext=jpeg",
+      "metadata_hash": "ae17d900a18cbf59581f763d2c080daedb4fa6b13f9f34c35b07f1cc5cb451a8",
+      "metadata_link": "https://gateway.irys.xyz/CVpzzaZLNo5tapiST9EYiAKnJ3vt8DSFTQirWCipThLx",
+      "onChain": true
+    },
+    "6": {
+      "name": "Medical X-ray Image #6",
+      "image_hash": "9904f0fec6adc349c35452fa9909721b9dfcb02a254c76b9d329f3432151ed39",
+      "image_link": "https://gateway.irys.xyz/9EEiXPfw2jvsisnJAdANSKpCejsZPVH7MqSuU1oYgS6z?ext=jpeg",
+      "metadata_hash": "8e05f85bb764c5132a71012353dc8f74c40e690d73ac1f21c08a32de57abb4ab",
+      "metadata_link": "https://gateway.irys.xyz/2X5QfowRcx3YZvazvttKWVfsV2zKPg5A2xr8wvYavA2p",
+      "onChain": true
+    },
+    "7": {
+      "name": "Medical X-ray Image #7",
+      "image_hash": "a73c06abbb473b57c90374424f86f0d7876bdbdb5c3ed8c681e4bd6f09778c38",
+      "image_link": "https://gateway.irys.xyz/GcBhQxjZDaRL9JgGVom7BXBsH2fQ4Mo9vkJrXcYQLzEH?ext=jpeg",
+      "metadata_hash": "9c8ee3564d6e32d0ccb733a0f009b804f4ce9ad050352824fa0b9d1ec153f7ad",
+      "metadata_link": "https://gateway.irys.xyz/EMiyzS4sa9edasFEmzN1QMnfnsyUApjhAhcFg16hidHR",
+      "onChain": true
+    }
+  }
+}

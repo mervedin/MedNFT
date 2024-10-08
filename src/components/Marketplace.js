@@ -1,27 +1,28 @@
-// src/components/Marketplace.js
 import React from 'react';
-import './Marketplace.css';  // Custom styles
+import { data } from './data'; // Adjust the import path
+import './Marketplace.css';  // Make sure to include your CSS file
 
-function Marketplace() {
+const Marketplace = () => {
+  const handleBuy = (nft) => {
+    // Logic for handling the purchase of the NFT
+    alert(`You have bought ${nft.name} for ${nft.price} ETH.`); // Adjust price accordingly
+  };
+
   return (
     <div className="marketplace">
-      <h1>Explore NFTs</h1>
+      <h1>Marketplace</h1>
       <div className="nft-grid">
-        {/* Here, you can dynamically render NFTs */}
-        <div className="nft-item">NFT #1</div>
-        <div className="nft-item">NFT #2</div>
-        <div className="nft-item">NFT #3</div>
-        {/* Add more items */}
-      </div>
-      <div className="nft-grid">
-        {/* Here, you can dynamically render NFTs */}
-        <div className="nft-item">NFT #4</div>
-        <div className="nft-item">NFT #5</div>
-        <div className="nft-item">NFT #6</div>
-        {/* Add more items */}
+        {Object.keys(data).map((key) => (
+          <div key={key} className="nft-item">
+            <h2>{data[key].name}</h2>
+            <img src={data[key].image_link} alt={data[key].name} className="nft-image" />
+            <p>{data[key].description}</p>
+            <button className="buy-button" onClick={() => handleBuy(data[key])}>Buy</button> {/* Buy button */}
+          </div>
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default Marketplace;

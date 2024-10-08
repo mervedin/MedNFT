@@ -1,0 +1,24 @@
+{
+    "name": "MedNFT Collection",
+    "symbol": "MedNFT 24",
+    "description": "Collection of X-ray images",
+    "image": "collection.png",
+    "seller_fee_basis_points": 500,
+    "attributes": [],
+    "properties": {
+      "files": [
+        {
+          "uri": "collection.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "Cuqap5pa7g1KknxrMc6XkNzxzaaM3W7LLNKYGS5UNmKs",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

@@ -1,23 +1,56 @@
-/* src/components/Marketplace.css */
 .marketplace {
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-  }
-  
-  .nft-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .nft-item {
-    width: 200px;
-    height: 200px;
-    background-color: #444;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #8fe3f9;
-  }  
+  padding: 50px;
+  text-align: center;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images in a row */
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center the grid items */
+  justify-items: center;
+}
+
+
+.nft-image {
+  width: 100%;
+  max-width: 200px; /* Control max size of images */
+  border-radius: 4px;
+}
+
+.nft-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  justify-content: space-between; /* Space out items evenly */
+  padding: 30px; /* Add padding around the container */
+}
+
+.nft-item {
+  border: 1px solid #ccc; /* Optional: Add a border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  margin: 10px; /* Space between NFT items */
+  width: calc(33.33% - 20px); /* Set width and account for margins */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  text-align: center; /* Center align text */
+}
+
+/* Additional styles for the title */
+.nft-item h2 {
+  color: #16c07f; /* Use a color for visibility */
+}
+
+.buy-button {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Button text size */
+  transition: background-color 0.3s; /* Smooth transition */
+  margin-top: 10px; /* Space above the button */
+}
+
+.buy-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
