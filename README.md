@@ -6,7 +6,7 @@ The MedNFT project aims to address the critical challenge of data scarcity in ar
 ## Steps for Development
 
 
-### 11. **Define Data Structure**
+### 1. **Define Data Structure**
    - Create data structures to hold health data metadata, including:
      - Hash of the radiology image
      - Anonymized report data
